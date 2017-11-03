@@ -3,7 +3,7 @@ body, html {
   font-size: 14px;
   margin: 0;
   padding: 0;
-  background: #37474F;
+  background: #757575;
   color: #666 !important;
   height: 100%;
 }
@@ -93,7 +93,7 @@ body, html {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: fit;
+  flex-basis: auto
 }
 #ticketCardColumn {
   overflow-y: auto;
@@ -144,7 +144,7 @@ body, html {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   overflow-y: auto;
-  width: fit;
+  flex-basis: auto;
   padding: 0 1em;
 }
 #chatTitle {
@@ -164,6 +164,6 @@ body, html {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   overflow-y: auto;
-  width: fit;
+  flex-basis: auto;
   background: white;
 }
