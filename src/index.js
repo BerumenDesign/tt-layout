@@ -202,13 +202,13 @@ const App = () => (<MuiThemeProvider>
               <div style={custTitleChat}>John Smith
                 <span style={timeStampChat}>3 m ago</span>
               </div>
-              <div>Hey my LTE connection is no bueno, why?</div>
+              <div class="wrapChat">Hey my LTE connection is no bueno, why? -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
             </div>
             <div style={repChat}>
               <div style={titleChat}>You
                 <span style={timeStampChat}>Just now</span>
               </div>
-              <div>Hello, I am sorry to hear that, when was the last time it happened?</div>
+              <div class="wrapChat">Hello, I am sorry to hear that, when was the last time it happened? -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
             </div>
           </div>
         </div>
